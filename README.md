@@ -1,2 +1,5 @@
 # RocketCoffe
-Projeto da Maratona Explorer 5 | Rocketseat
+
+## Cardápio Online em QRCode
+
+Projeto da Maratona Explorer 3 | **Rocketseat**
