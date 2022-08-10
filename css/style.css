@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&display=swap");
+
 * {
 	margin: 0;
 	padding: 0;
@@ -5,10 +7,20 @@
 
 body {
 	background-color: #ffedd5;
+	font-family: "Roboto", sans-serif;
 }
 
 ul {
 	list-style: none;
+}
+
+h1,
+h2,
+h3,
+.price {
+	color: #2d2c2a;
+	text-transform: uppercase;
+	font-family: "Roboto Serif", serif;
 }
 
 header {
@@ -23,11 +35,19 @@ section {
 }
 
 header h1 {
+	font-size: 28px;
+	line-height: 33px;
 	margin-bottom: 4px;
 }
 
 header h1 span {
 	color: #995000;
+}
+
+header p {
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(0, 0, 0, 0.7);
 }
 
 section {
@@ -38,6 +58,7 @@ section h2 {
 	padding: 8px 16px;
 	margin-bottom: 24px;
 
+	font-size: 18px;
 	text-align: center;
 	background-color: #fed7aa;
 }
@@ -53,4 +74,13 @@ li .details {
 
 .details h3 {
 	margin-bottom: 8px;
+
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.details p {
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	line-height: 21px;
 }
